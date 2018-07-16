@@ -10,7 +10,7 @@
         </div>
         <div id="search">
             <form>
-                <input type="text" name="queryText" value="Search Google or type URL">
+                <input type="text" name="queryText" onfocus="if(this.value == 'Search Google or type URL') { this.value = ''; }" value="Search Google or type URL">
             </form>
         </div>
     </body>

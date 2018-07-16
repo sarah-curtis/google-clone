@@ -35,3 +35,6 @@ input[type=text]{
     border-color: #f7f7f7;
     border-radius: 5px;
 }
+input:focus{
+    outline: none;
+}
