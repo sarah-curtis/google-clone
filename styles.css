@@ -38,3 +38,27 @@ input[type=text]{
 input:focus{
     outline: none;
 }
+.navbar{
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+}
+.navbar a{
+    float: right;
+    text-align: center;
+    width: 6%;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-family: Arial;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+a:hover{
+    text-decoration: underline;
+}
+.square, .bell{
+    opacity: 0.5;
+}
+.square:hover, .bell:hover{
+    opacity: 0.9;
+}
